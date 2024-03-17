@@ -1,0 +1,25 @@
+[
+    {
+        "_id": "65abcdec0aec3c18582901c7",
+        "Role": "admin",
+        "UserName": "malik",
+        "FirstName": "Admin",
+        "LastName": "",
+        "CreatedDate": "20-01-24",
+        "SessionTimeOut": "number"
+    },
+    {
+        "_id": "65c8e0570d597a1dc02b8bd7",
+        "UserName": "dana@gmail.com",
+        "FirstName": "dana ",
+        "LastName": "levi",
+        "CreatedDate": "2024-02-11 16:57:27"
+    },
+    {
+        "_id": "65ccc5dcba52fcf3190b6168",
+        "UserName": "shahar@gmail.com",
+        "FirstName": "shshar le",
+        "LastName": "itzko",
+        "CreatedDate": "2024-02-14 15:53:32"
+    }
+]

@@ -1,0 +1,80 @@
+/* AdminCreateUserPage.css */
+
+.create-user-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #444;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.create-user-form h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.create-user-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.create-user-form input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #555;
+  color: #fff;
+}
+
+.create-user-form fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.create-user-form legend {
+  color: #fff;
+  font-size: 1.2em;
+  padding: 0 5px;
+}
+
+.create-user-form input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.5); /* Enlarges the checkbox */
+  vertical-align: middle; /* Aligns checkbox with the label text */
+}
+
+.create-user-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.create-user-form button:hover {
+  background-color: #0056b3;
+}
+
+.form-group fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group fieldset label {
+  margin-bottom: 5px;
+  font-size: 1em;
+}

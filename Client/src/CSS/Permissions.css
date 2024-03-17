@@ -1,0 +1,38 @@
+/* Permissions.css */
+
+.permissions-container {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.permissions-container h3 {
+  margin-bottom: 15px;
+  color: #007bff;
+  font-size: 1.4em;
+}
+
+.permissions-list {
+  color: #000;
+  list-style: none;
+  padding: 0;
+}
+
+.permission-item {
+  margin-bottom: 10px;
+}
+
+.permission-item label {
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.permission-item input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+  /* Custom size for checkbox */
+  width: 20px;
+  height: 20px;
+  /* Optional: Custom styles to make the checkbox look better at a larger size */
+  transform: scale(1.5); /* Scale the checkbox */
+  vertical-align: middle; /* Aligns checkbox with text */
+}

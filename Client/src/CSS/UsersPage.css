@@ -1,0 +1,61 @@
+/* UsersPage.css */
+
+.users-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.users-container h1 {
+  margin-bottom: 20px;
+  font-size: 3em; /* Even larger title font */
+}
+
+.user-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+  padding: 15px; /* Increased padding for more space */
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+}
+
+.user-item h3,
+.user-item p {
+  color: #000000;
+  margin-bottom: 10px;
+  font-size: 1.2em; /* Larger font size for user details */
+}
+
+.permissions-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.permissions-list li {
+  font-size: 1em; /* Larger font size for permissions */
+  border: 1px solid #ddd; /* Border for each permission */
+  padding: 5px; /* Padding inside each permission item */
+  margin-bottom: 5px; /* Space between permission items */
+  border-radius: 4px; /* Rounded corners for permission items */
+  background-color: #f2f2f2; /* Slight background for contrast */
+}
+
+.add-user-link {
+  display: inline-block;
+  padding: 10px 20px; /* Similar padding as buttons */
+  margin-bottom: 20px;
+  background-color: #007bff; /* Button-like background color */
+  color: white; /* White text for visibility */
+  text-decoration: none; /* Remove underline from link */
+  border-radius: 4px; /* Rounded corners like buttons */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  font-size: 1em; /* Font size similar to buttons */
+  cursor: pointer; /* Cursor to indicate it's clickable */
+}
+
+.add-user-link:hover {
+  background-color: #0056b3; /* Darker shade on hover, like buttons */
+}

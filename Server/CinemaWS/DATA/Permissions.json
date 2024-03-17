@@ -1,0 +1,36 @@
+[
+    {
+        "_id": "65abcdec0aec3c18582901c7",
+        "permissions": [
+            "Admin",
+            "Add Member",
+            "View Subscriptions",
+            "Create Subscriptions",
+            "Delete Subscriptions",
+            "Update Subscriptions",
+            "View Movies",
+            "Create Movies",
+            "Delete Movies",
+            "Update Movies"
+        ]
+    },
+    {
+        "_id": "65c8e0570d597a1dc02b8bd7",
+        "permissions": [
+            "View Subscriptions",
+            "Create Subscriptions",
+            "Update Subscriptions",
+            "View Movies"
+        ]
+    },
+    {
+        "_id": "65ccc5dcba52fcf3190b6168",
+        "permissions": [
+            "View Subscriptions",
+            "Update Subscriptions",
+            "Delete Subscriptions",
+            "View Movies",
+            "Create Movies"
+        ]
+    }
+]

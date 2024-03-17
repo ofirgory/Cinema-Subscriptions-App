@@ -1,0 +1,9 @@
+/* App.css or index.css */
+
+body {
+  background-color: #333; /* Or any dark color you prefer */
+  color: #fff; /* Light text color for readability on dark background */
+  font-family: "Arial", sans-serif; /* Optional: your preferred font */
+}
+
+/* Other global styles */
